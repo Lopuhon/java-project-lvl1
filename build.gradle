@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'application'
+    id 'checkstyle'
 }
 
 application {
@@ -16,4 +17,9 @@ repositories {
 
  compileJava {
     options.release = 17
+}
+checkstyleMain
+
+run {
+    standardInput = System.in
 }
