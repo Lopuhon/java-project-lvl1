@@ -7,12 +7,15 @@ public class App {
         System.out.println("Please enter the game " +
                 "number and press Enter.\n" +
                 "1 - Greet\n" +
+                "2 - Even\n" +
                 "0 - Exit\n" +
                 "Your choice: ");
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
-        if(a == 1) {
-            Cli.greeting();
-        } else{ System.out.println("exit");}
+        switch (a) {
+            case 1 -> Cli.greeting();
+            case 2 -> Even.startGame();
+            case 0 -> System.out.println("Exit");
+        }
     }
 }
