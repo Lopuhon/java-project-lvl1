@@ -21,7 +21,7 @@ public class Engine {
                 System.out.println("Correct!");
             } else {
                 System.out.println(answer + " is wrong answer ;(. Correct answer was: " +
-                        roundsData[round][1] + " Let's try again, " + name + "!");
+                        roundsData[round][1] + "\nLet's try again, " + name + "!");
                 return;
             }
         }
