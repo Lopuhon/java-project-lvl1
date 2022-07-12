@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a41f593-2965-460e-823e-2ac56c60bc52" name="Changes" comment="add Calc games,Readme">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/NOD.java" afterDir="false" />
+    <list default="true" id="4a41f593-2965-460e-823e-2ac56c60bc52" name="Changes" comment="add NOD games, add new README">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/games/Progression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/hexlet/code/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/hexlet/code/App.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/Calc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/games/Calc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/Even.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/games/Even.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hexlet/code/NOD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hexlet/code/games/NOD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,13 +148,13 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.make&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.App">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.hexlet.code.App">
+    <configuration name="hexlet.code.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hexlet.code.App" />
       <module name="app.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hexlet.code.*" />
+          <option name="PATTERN" value="hexlet.code.games.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -242,7 +246,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.hexlet.code.App" />
         <item itemvalue="Gradle.java-project-lvl1 [clean]" />
         <item itemvalue="Makefile Target.run-dist" />
         <item itemvalue="Gradle.java-project-lvl1 [installDist]" />
@@ -329,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655841102229</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add NOD games, add new README">
+      <created>1656016868261</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656016868261</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -360,7 +371,8 @@
     <MESSAGE value="change some file." />
     <MESSAGE value="more game" />
     <MESSAGE value="add Calc games,Readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Calc games,Readme" />
+    <MESSAGE value="add NOD games, add new README" />
+    <option name="LAST_COMMIT_MESSAGE" value="add NOD games, add new README" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

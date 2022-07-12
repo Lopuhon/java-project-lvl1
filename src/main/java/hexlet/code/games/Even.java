@@ -1,4 +1,7 @@
-package hexlet.code;
+package hexlet.code.games;
+
+import hexlet.code.Engine;
+import hexlet.code.Utils;
 
 public class Even {
     public static final int NUMBER_RANDOM = 100;
