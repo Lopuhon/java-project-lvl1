@@ -10,17 +10,18 @@ public class Engine {
 
         Scanner sc = new Scanner(System.in);
         String name = sc.nextLine();
-        System.out.println("Hello," + name +"!" + "\n" + task);
+        System.out.println("Hello," + name + "!" + "\n" + task);
 
         for (int round = 0; round < ROUNDS; round++) {
             System.out.println("Question: " + roundsData[round][0]);
             System.out.println("Your answer:");
             String answer = sc.nextLine();
 
-            if(roundsData[round][1].equals(answer)) {
+            if (roundsData[round][1].equals(answer)) {
                 System.out.println("Correct!");
             } else {
-                System.out.println(answer + " is wrong answer ;(. Correct answer was: " +
+                System.out.println(answer + " is wrong answer ;(. Correct answer was: "
+                        +
                         roundsData[round][1] + "\nLet's try again, " + name + "!");
                 return;
             }

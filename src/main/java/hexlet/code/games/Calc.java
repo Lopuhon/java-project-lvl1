@@ -21,7 +21,7 @@ public class Calc {
     }
     public static String[][] generateRoundData() {
         String[][] roundsData = new String[ARRAYS_LENGTH][2];
-        for(int i = 0; i < ARRAYS_LENGTH; i++) {
+        for (int i = 0; i < ARRAYS_LENGTH; i++) {
             int firstNum = Utils.generateRandomNumber(NUMBER_RANDOM);
             int secondNum = Utils.generateRandomNumber(NUMBER_RANDOM);
             int v = Utils.generateRandomNumber(VARIANT_OPERATORS);

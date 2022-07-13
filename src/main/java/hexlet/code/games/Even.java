@@ -15,9 +15,9 @@ public class Even {
         return number % 2 == 0;
     }
 
-    private static String[][] generateRoundData(){
+    private static String[][] generateRoundData() {
         String[][] roundsData = new String[LENGTH_ARRAYS][2];
-        for(int i = 0; i < LENGTH_ARRAYS; i++) {
+        for (int i = 0; i < LENGTH_ARRAYS; i++) {
             int number = Utils.generateRandomNumber(NUMBER_RANDOM);
             var question = String.valueOf(number);
             var answer = isEven(number) ? "yes" : "no";
