@@ -1,15 +1,20 @@
 package hexlet.code;
-import hexlet.code.games.*;
+
+import hexlet.code.games.PrimeNumber;
+import hexlet.code.games.Progression;
+import hexlet.code.games.Calc;
+import hexlet.code.games.Even;
+import hexlet.code.games.NOD;
 
 import java.util.Scanner;
 
 public class App {
-    public static String greet = "1 - Greet";
-    public static String even = "2 - Even";
-    public static String calc = "3 - Calc";
-    public static String nod = "4 - NOD";
-    public static String progression = "5 - progression";
-    public static String prime = "6 - Prime number";
+    private static String greet = "1 - Greet";
+    private static String even = "2 - Even";
+    private static String calc = "3 - Calc";
+    private static String nod = "4 - NOD";
+    private static String progression = "5 - progression";
+    private static String prime = "6 - Prime number";
     public static void main(String[] args) {
         System.out.println("Please enter the game " +
                 "number and press Enter.\n" +
