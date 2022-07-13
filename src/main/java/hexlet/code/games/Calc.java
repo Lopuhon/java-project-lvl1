@@ -26,7 +26,7 @@ public class Calc {
             int secondNum = Utils.generateRandomNumber(NUMBER_RANDOM);
             int v = Utils.generateRandomNumber(VARIANT_OPERATORS);
             char operator = operators[v];
-            var question = firstNum +"" + operator +"" + secondNum;
+            var question = firstNum + " " + operator + " " + secondNum;
             var answer = String.valueOf(calculate(firstNum, secondNum, operator));
             roundsData[i] = new String[]{question, answer};
         }
