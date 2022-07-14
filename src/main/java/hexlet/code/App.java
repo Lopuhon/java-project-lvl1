@@ -24,25 +24,15 @@ public class App {
     public static final int PRIME_NUMBER = 6;
     public static final int EXIT_NUMBER = 0;
     public static void main(String[] args) {
-        System.out.println("Please enter the game "
-                +
-                "number and press Enter.\n"
-                +
-                greet
-                + "\n" +
-                even
-                + "\n" +
-                calc
-                + "\n" +
-                nod
-                +"\n" +
-                progression
-                + "\n" +
-                prime
-                + "\n" +
-                "0 - Exit\n"
-                +
-                "Your choice: ");
+        System.out.println("Please enter the game number and press Enter.\n");
+        System.out.println(greet);
+        System.out.println(even);
+        System.out.println(calc);
+        System.out.println(nod);
+        System.out.println(progression);
+        System.out.println(prime);
+        System.out.println("Your choice: ");
+
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         switch (a) {

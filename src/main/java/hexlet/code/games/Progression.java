@@ -18,7 +18,7 @@ public class Progression {
 
 public static String hiddenElement(int[] a, int b) {
     var result = new StringJoiner(" ");
-    for (int i = 0; i < a.length; i++ ) {
+    for (int i = 0; i < a.length; i++) {
         int element = a[i];
         if (i == b) {
             result.add("..");
