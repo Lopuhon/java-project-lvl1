@@ -13,7 +13,7 @@ public class NOD {
     }
     public static int gcd(int a, int b) {
         while (a != 0 && b != 0) {
-            if ( a > b) {
+            if (a > b) {
                 a = a % b;
             } else {
                 b = b % a;
