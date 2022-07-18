@@ -8,6 +8,8 @@ public class Calc {
     public static final int ARRAYS_LENGTH = 3;
     public static final char[] OPERATORS = {'+', '-', '*'};
     public static final int VARIANT_OPERATORS = 3;
+
+
     public static void startGame() {
     Engine.start("What is the result of the expression?", generateRoundData());
     }
