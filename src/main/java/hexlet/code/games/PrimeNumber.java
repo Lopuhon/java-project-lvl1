@@ -26,7 +26,7 @@ public class PrimeNumber {
         String[][] roundsData = new String[LIMIT_LENGTH_ARRAYS][2];
         for (int i = 0; i < LIMIT_LENGTH_ARRAYS; i++) {
             int number = Utils.generateRandomNumber(RANDOM);
-            var answer = isNumberPrime(number) ? "yes" : "no";
+            var answer = isNumberPrime(number) ? "no" : "yes";
             var question = String.valueOf(number);
             roundsData[i] = new String[]{question, answer};
         }
