@@ -11,16 +11,18 @@ public class Calc {
 
 
     public static void startGame() {
-    Engine.start("What is the result of the expression?", generateRoundData());
+        Engine.start("What is the result of the expression?", generateRoundData());
     }
+
     public static int calculate(int a, int b, char c) {
         return switch (c) {
             case '+' -> a + b;
             case '-' -> a - b;
             case '*' -> a * b;
-            default -> 0;
+            default -> throw new RuntimeException("Unsupported operator");
         };
     }
+
     public static String[][] generateRoundData() {
         String[][] roundsData = new String[ARRAYS_LENGTH][2];
         for (int i = 0; i < ARRAYS_LENGTH; i++) {
@@ -32,7 +34,7 @@ public class Calc {
             var answer = String.valueOf(calculate(firstNum, secondNum, operator));
             roundsData[i] = new String[]{question, answer};
         }
-        return  roundsData;
+        return roundsData;
 
     }
 
