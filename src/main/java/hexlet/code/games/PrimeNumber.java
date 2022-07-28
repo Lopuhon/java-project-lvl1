@@ -12,12 +12,11 @@ public class PrimeNumber {
     }
 
     public static boolean isNumberPrime(int number) {
-        if (number <= 1) {
-            return false;
-        }
-        for (int i = 2; i < number; i++) {
-            if (number % i == 0) {
-                return true;
+        if (number > 1) {
+            for (int i = 2; i < number; i++) {
+                if (number % i == 0) {
+                    return true;
+                }
             }
         }
         return false;
